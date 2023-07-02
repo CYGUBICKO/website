@@ -1,0 +1,14 @@
+name: "cygubicko"
+title: "Steve Bicko Cygu"
+description: |
+  Steve Bicko Cygu
+output_dir: "."
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "Resources and software"
+      href: software.html
+    - text: "Teaching"
+      href: teaching.html
+output: distill::distill_article
