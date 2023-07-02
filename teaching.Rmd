@@ -1,0 +1,27 @@
+---
+title: "Teaching"
+output:
+  distill::distill_article
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+Between 2019 and 2022, I TA'ed the following courses: 
+
+```{r echo=FALSE,message=FALSE,results="asis",warning=FALSE}
+library(kableExtra)
+library(dplyr)
+library(readr)
+options(knitr.kable.NA="")
+dd <- (read_csv("docs/files/teaching.csv")
+	%>% kbl(escape = FALSE, vline="|")
+# 	%>% row_spec(0, background = "beige")
+# 	%>% column_spec(c(1,2,3,4),background="lightblue")
+	%>% kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
+)
+dd
+```
+
+

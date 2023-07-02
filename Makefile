@@ -38,10 +38,12 @@ Ignore += .nojekyll *.html *.json
 
 index.html.newpages: index.Rmd
 software.html.newpages: software.Rmd
+teaching.html.newpages: teaching.Rmd
 
 all:
 	$(MAKE) index.html.newpages
 	$(MAKE) software.html.newpages
+	$(MAKE) teaching.html.newpages
 
 ######################################################################
 
