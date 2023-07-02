@@ -9,6 +9,7 @@ current: target
 Sources += $(wildcard *.R *.md *.Rnw *.rmd *.Rmd *.bib *.css)
 Sources += docs/cv/*
 Sources += docs/images/*
+Sources += docs/files/*
 
 ######################################################################
 
