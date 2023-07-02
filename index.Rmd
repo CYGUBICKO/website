@@ -1,0 +1,38 @@
+---
+title: "Steve Bicko Cygu"
+image: "images/steve_cygu.jpg"
+links:
+  - label: LinkedIn
+    url: "https://www.linkedin.com/in/cygubicko/"
+  - label: Twitter
+    url: "https://twitter.com/cygubicko"
+  - label: GitHub
+    url: "https://github.com/CYGUBICKO"
+  - label: Email
+    url: "mailto:cygubicko@gmail.com"
+output:
+  postcards::trestles
+site: distill::distill_website
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Profile summary
+
+Steve is a Data Scientist and Machine Leaning Engineer with strong mathematical, statistical and computational skills. He previously worked in the intersection of computational approaches and public health; and is greatly involved in the R open-source community and passionate about developing R packages. He has vast experience in data processing, analysis and mining; predictive modelling; machine learning and algorithm implementation.
+
+Currently, he is a data scientist at African Population and Health Center and a Research Fellow with I-DAIR. Previously, he  worked with Dalberg research as a data processing manager and African Population and Health Research Centre as a data scientist, both in Nairobi, Kenya. He also collaborates with [MacTheobio](https://mac-theobio.github.io/) research group.
+
+Steve holds a PhD in Computational Science and Engineering (under supervision of [Prof. Jonathan Dushoff](https://mac-theobio.github.io/dushoff.html) and [Prof. Benjamin Bolker](https://math.mcmaster.ca/~bolker/)) from McMaster University (Canada), an MSc in Mathematical Sciences from Stellenbosch University (South Africa) and a BSc in Applied Statistics with Computing from Maasai Mara University (Kenya).
+
+
+## Products
+
+- For the list of my published research work, go to [Google Scholar](https://scholar.google.com/citations?hl=en&authuser=1&user=4g4GlfAAAAAJ).
+- For presentation slides and training materials on introduction to data science and story telling with data, kindly email.
+- I also lead a Q&A sessions on data analysis and modelling at APHRC.
+- See my CV for more information, [Full CV](cv/steve_cv_main.pdf){target="_blank"}.
+

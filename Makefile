@@ -34,6 +34,8 @@ create_postcard:
 
 ######################################################################
 
+Ignore += .nojekyll *.html *.json
+
 index.html.newpages: index.Rmd
 software.html.newpages: software.Rmd
 

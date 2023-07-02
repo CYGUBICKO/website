@@ -1,0 +1,55 @@
+---
+title: "Resources and software"
+output:
+  distill::distill_article:
+      toc: true
+      toc_float: true
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Resources
+
+### R codes
+
+Some of these might be outdated or there could be already developed R packages to do a better job, but might still be helpful:
+
+1. [Split multiple response entry column(s) in R](https://cygubicko.github.io/miscellaneous/separate_entries.html){target="_blank"}
+2. [Organise Variables in a dataframe](https://cygubicko.github.io/miscellaneous/organise_variables.html){target="_blank"}
+3. [Summariz(s)e all the variables in a dataframe](https://cygubicko.github.io/miscellaneous/summarize_variables.html){target="_blank"}
+4. [Data Management and Analysis with R](https://cygubicko.github.io/aphrc-training/index.html){target="_blank"} -- Training materials.
+
+### R shiny dashboards
+
+**Warning**: Some of the links might be broken due to updates in underlying R packages (or AUTH policies in some APIs) but you can always access source code upon request:
+
+1. [Malaria Death Rates and Global trends](https://otigoohnyaranga.shinyapps.io/stats744Dashboard/){target="_blank"}
+2. [Real-time field survey tracking](https://otigoohnyaranga.shinyapps.io/xxxDashboard/){target="_blank"} -- Source code and demo available upon request.
+3. [Real-time visualization and analysis of Twitter activity](https://otigoohnyaranga.shinyapps.io/twitterDashboard/) -- May fail due change in Twitter API AUTH policy change. As already mentioned, all source codes are available.
+
+## Software
+
+### Platforms
+
+1. [No-code platform for end-to-end ML/AI prediction](https://qa1.i-dair.africa/){target="_blank"} -- Still under development
+
+### R packages
+
+1. [pcoxtime](https://cran.r-project.org/web/packages/pcoxtime/index.html) -- R package for penalized survival analysis (on CRAN)
+2. [varpred](https://cygubicko.github.io/varpred/index.html) -- R package for outcome plots (on github)
+3. [satpred](https://github.com/CYGUBICKO/satpred) -- R package for pipeline for survival analysis training and prediction pipeline (on github)
+4. [glmnetpostsurv](https://github.com/CYGUBICKO/glmnetpostsurv) -- User friendly wrapper for glment survival models (on github)
+
+## Work in-progress
+
+### R packages
+
+1. **safisha** -- R package for automated data quality and report generation. Complete but yet to be made open source.
+2. **refrange** -- R package for the clinicians to estimate age-related changes in immune biomarkers in health South African children (on github)
+
+### Book chapters
+
+1. [A Step Towards Statistical Analysis in R](https://cygubicko.github.io/aphrc-training/readings/A_Step_Towards_Statistical_Analysis_in_R.pdf)
